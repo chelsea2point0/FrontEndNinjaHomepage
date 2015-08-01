@@ -19,8 +19,12 @@ hr {
 
 .text-muted {
 	color: #AAAB8F;
+	text-align: center;
 }
 
+.text-muted h2 {
+	margin-top: 30px;
+}
 .text-thin {
 	font-weight: 100;
 }
@@ -29,6 +33,13 @@ hr {
 	margin-top: 10px;
 }
 .img-personal {
-
 	height: 200px;
+}
+
+.col-md-2 {
+	float: left;
+}
+
+.col-md-6 {
+	float: right;
 }
