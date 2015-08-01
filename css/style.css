@@ -1,0 +1,34 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #484941;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 44px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+hr {
+	border: 1px solid #484941;
+}
+
+.text-muted {
+	color: #AAAB8F;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.logo-margin {
+	margin-top: 10px;
+}
+.img-personal {
+
+	height: 200px;
+}

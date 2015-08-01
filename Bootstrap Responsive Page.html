@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> HTML/CSS Final Project - Udacity Portfolio</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/jQuery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="logo-margin" src="https://s-media-cache-ak0.pinimg.com/236x/0d/1b/83/0d1b8373f839f66044f7ca2dac46bf03.jpg" alt="Wonder Woman logo" width="100">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="text-thin">Chelsea Schaefer</h1>
+					<h4>Front End Ninja</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img class="img-responsive" src="https://scontent-lga1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/11403040_1621036184838687_312668212787892047_n.jpg?oh=88c87edfa1036e3791d03270974ba99a&oe=565B9840" alt="lakefront campfire at sunset">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img class="img-responsive img-personal" src="http://lunchbusiness.co.uk/sites/default/files/images/news/uk_barista_challenge_search_begins.jpg" alt= "barista with espresso machine" data-toggle="modal" data-target="#favoriteApp">
+					<h3 class="text-uppercase">Coffee House</h3>
+					<p>https://github.com/udacity/coffeehouse</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive img-personal" src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/11659403_1618833011734219_3663078724676832831_n.jpg?oh=846e76a3f5159767d9d87bd6564e1609&oe=561C76B9" alt="Emily, Drew, Ben, and Chelsea in Virginia Beach" data-toggle="modal" data-target="#framework">
+					<h3 class="text-uppercase">Adventures</h3>
+					<p>https://github.com/udacity/adventures</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive img-personal" src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/11182285_10153191674624627_2059698404921067408_n.jpg?oh=20733ce4c854e040ab632b6d07d921a9&oe=5626235D" alt ="road runners and open field" data-toggle="modal" data-target="#blog">
+					<h3 class="text-uppercase">Marathon Blog</h3>
+					<p>https://github.com/udacity/marathonblog</p>
+				</div>
+			</div>
+		</div>
+
+	<!-- Modal -->
+<div class="modal fade" id="favoriteApp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lunchbusiness.co.uk/sites/default/files/images/news/uk_barista_challenge_search_begins.jpg" alt= "barista with espresso machine" height="200" data-toggle="modal" data-target="#favoriteApp">
+        This was my first project in this class. I learned a lot about HTML and CSS by creating a simple webpage for a coffee shop. The HTML includes div tags, each with defined CSS classes. I also used CSS to customize the header background color, text positioning, and padding. The best thing I learned from this project was the CSS feature 'display: flex' which allowed my image to appear on the same line as my text. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Modal -->
+<div class="modal fade" id="framework" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Framework Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/11659403_1618833011734219_3663078724676832831_n.jpg?oh=846e76a3f5159767d9d87bd6564e1609&oe=561C76B9" alt="Emily, Drew, Ben, and Chelsea in Virginia Beach" height="200" data-toggle="modal" data-target="#framework">
+        For my Framework project, I created a webpage the provided a photo and a description of three fun adventures I've had with my husband. The header was centered on the page, and underneath there were 2 columns. The left side held the pictures and the right side held the descriptions, whith the text taking up more width than the photographs. I used CSS row and column classes to create this layout. This was also the first project where I used Google Fonts to create a custom look, exactly as I wanted it. I also used a media tag to change components of the CSS when the viewer's display size changed.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Modal -->
+<div class="modal fade" id="blog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Framework Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/11182285_10153191674624627_2059698404921067408_n.jpg?oh=20733ce4c854e040ab632b6d07d921a9&oe=5626235D" alt ="road runners and open field" height="200" data-toggle="modal" data-target="#blog">
+        For this project I created a basic blogging webpage. The HTML contains anchor tags in an ordered list to allow the reader to jump to particular entries on the page. Unique ID tags were given to particular paragraphs to allow the page links to jump to the correct part of the page when clicked. The CSS also specifies font-family, background and text colors, font weight and text decoration to make the webpage more visually appealing.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p><br><br>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+	</body>
+</html>
